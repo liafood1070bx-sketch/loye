@@ -1,0 +1,7 @@
+[build]
+  publish = "dist"  # Change to "build" for React, or your framework's output folder
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
